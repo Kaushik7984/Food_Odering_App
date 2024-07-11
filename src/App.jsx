@@ -1,6 +1,6 @@
 import Header from "./Components/Header";
 import Meals from "./Components/Meals";
-import { CartContextProvider } from "./Store/cartContext"; 
+import { CartContextProvider } from "./Store/cartContext";
 
 function App() {
   return (
