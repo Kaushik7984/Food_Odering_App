@@ -1,0 +1,11 @@
+{
+    "name": "my-vercel-api",
+    "version": "1.0.0",
+    "main": "api/meals.js",
+    "scripts": {
+      "start": "vercel dev"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
