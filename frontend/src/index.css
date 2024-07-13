@@ -324,3 +324,12 @@ h1 {
     transform: translateY(0);
   }
 }
+
+.webname1{
+  font-size: 45px;
+  font-weight: bold;
+  background: linear-gradient(to right, #d9e2f1 50%, #ffc404 70% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}

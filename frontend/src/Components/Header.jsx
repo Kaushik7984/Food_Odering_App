@@ -47,7 +47,7 @@ const closeCheckHandle =()=>{
     <header id="main-header">
       <div id="title">
         <img src={logo} alt="a resturant" />
-        <h1>Foodies </h1>
+        <h2 className="webname1">Foodies </h2>
       </div>
       {showModal && (
         <ModalNew className="forCenterCart">
