@@ -9,7 +9,7 @@ export default function Meals() {
     data: loadMeals,
     loading,
     error,
-  } = useHttp("http://localhost:3000/meals", requestConfig, []);
+  } = useHttp("https://react-food-api.vercel.app/meals", requestConfig, []);
 
   console.log(loadMeals);
 

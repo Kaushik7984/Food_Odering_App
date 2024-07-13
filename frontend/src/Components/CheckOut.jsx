@@ -56,7 +56,7 @@ export default function CheckOut({ onCloseCheckOut }) {
     loading: sending,
     error,
     sendRequest,
-  } = useHttp("http://localhost:3000/orders", requestConfig);
+  } = useHttp("https://react-food-api.vercel.app/orders", requestConfig);
 
   let actions = (
     <>
